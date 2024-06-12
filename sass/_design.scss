@@ -1,0 +1,133 @@
+.design{
+    margin-top: 30px;
+    .design__card__info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        h6{
+            border-bottom: 1px solid black;
+            padding: 5px;
+            width: 120px;
+            transition: 0.3s;
+            font-weight: 400;
+            cursor: pointer;
+            &:hover{
+                width: 100px;
+            }
+        }
+    }
+    .design__title{
+        h2{
+            font-size: 34px;
+            font-weight: 400;
+            line-height: 58px;
+        }
+        p{
+            font-size: 18px;
+            line-height: 24px;
+            font-weight: 400;
+        }
+        h4{
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 21px;
+            letter-spacing: 1.4px;
+        }
+    }
+        h4{
+            font-size: 16px;
+            border-bottom: 1px solid black;
+            letter-spacing: 1.4px;
+            line-height: 21px;
+            padding: 5px;
+            width: 180px;
+            font-weight: 400;
+            transition: 0.3s;
+            text-align: center;
+        }
+        h4:hover{
+            width: 140px;
+        }
+        p{
+            width: 80%;
+            margin: 0 auto;
+        }
+        h2{
+            font-size: 28px;
+        }
+    }
+    .design__cards{
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: auto;
+        gap: 20px;
+        .design__card{
+            img{
+                width: 100%;
+            }
+            .design__card__info{
+                text-align: center;
+                h3{
+                    font-size: 30px;
+                }
+                h6{
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+
+@media (min-width: 576px) {
+    .design{
+        .design__title{
+            h2{
+                font-size: 34px;
+                font-weight: 400;
+                line-height: 58px;
+            }
+            p{
+                font-size: 18px;
+                line-height: 24px;
+                font-weight: 400;
+            }
+            h4{
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 21px;
+                letter-spacing: 1.4px;
+            }
+        }
+    }
+}
+@media (min-width : 600px) {
+    .design{
+        .design__cards{
+            display: grid;
+            grid-template-columns: auto auto;
+        }
+        .design__card__info{
+            h3{
+            font-weight: 400;
+            }
+        }
+        .design__title{
+            h2{
+                font-size: 38px;
+                font-weight: 400;
+                line-height: 58px;
+            }
+            p{
+                font-size: 24px;
+                line-height: 24px;
+                font-weight: 400;
+            }
+            h4{
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 21px;
+                letter-spacing: 1.4px;
+            }
+        }
+    }
+}
